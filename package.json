@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe firefox tests/sendAllEmails"
+    "test": "testcafe firefox:headless tests/sendAllEmails"
   },
   "author": "",
   "license": "ISC",
