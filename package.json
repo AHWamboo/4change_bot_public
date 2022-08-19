@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe firefox:headless tests/sendAllEmails"
+    "test": "testcafe firefox:headless tests/sendAllEmails",
+    "checkBrowsers": "testcafe --list-browsers"
   },
   "author": "",
   "license": "ISC",
